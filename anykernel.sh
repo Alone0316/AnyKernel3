@@ -49,9 +49,9 @@ RAMDISK_COMPRESSION=auto;
 #reset_ak;
 
 # init_boot install
-#dump_boot; # unpack ramdisk since it is the new first stage init ramdisk where overlay.d must go
+dump_boot; # unpack ramdisk since it is the new first stage init ramdisk where overlay.d must go
 
-#write_boot;
+write_boot;
 ## end init_boot install
 
 

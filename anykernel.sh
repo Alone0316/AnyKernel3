@@ -12,7 +12,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=mido
 device.name2=
-supported.versions=13,14,15,16
+supported.versions=13-16
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties

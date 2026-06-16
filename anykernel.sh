@@ -7,11 +7,10 @@ properties() { '
 kernel.string=Fussion Kernel for Redmi Note 4/4x
 do.devicecheck=1
 do.modules=0
-do.systemless=1
+do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
 device.name1=mido
-device.name2=
 supported.versions=13-16
 supported.patchlevels=
 supported.vendorpatchlevels=
@@ -48,8 +47,8 @@ RAMDISK_COMPRESSION=auto;
 # reset for init_boot patching
 #reset_ak;
 
-split_boot;
-flash_boot;
+dump_boot;
+write_boot;
 # init_boot install
 #dump_boot; # unpack ramdisk since it is the new first stage init ramdisk where overlay.d must go
 
